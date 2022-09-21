@@ -1,0 +1,77 @@
+html{
+    background-color: aqua;
+}
+
+a{
+    font-size: medium;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+}
+
+iframe{
+    width: 500px;
+    height: 315px;
+}
+
+.italic_text{
+    font-style: italic;
+}
+
+#logo{
+    height: 250px;
+}
+
+img{
+    height: 400px;
+    text-align: left;
+}
+
+nav > a {
+    text-align: left;
+}
+
+nav > a {
+    background-color: rgb(17, 0, 252);
+}
+
+h1, div + p{
+    background-color: green;
+    color: black;
+    border-style: dashed;
+}
+
+
+h2, section p{
+    background-color: orange;
+    color: white;
+}
+
+iframe ~ p {
+    border-width: 7px;
+    border-color: indigo;
+    border-style: dotted;
+}
+
+p:hover{
+    color: thistle;
+    border: dashed 3px limegreen;
+}
+
+p:active{
+    font-size: 300px;
+}
+
+img:active {
+    height: 400px;
+}
+
+a:link{
+    color: rgb(255, 251, 0);
+}
+
+a:visited {
+    color: rgb(255, 251, 0);
+}
